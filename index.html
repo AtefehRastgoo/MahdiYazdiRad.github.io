@@ -2,21 +2,16 @@
 <html lang="fa">
 
 <head>
-    <title>مهدی یزدی راد | Quera</title>
+    <title>مهدی یزدی راد</title>
     <meta name="description" content="QCV مهدی یزدی راد">
     <meta content="text/html" charset="UTF-8">
 
     <meta property="og:title" content="مهدی یزدی راد" />
     <meta property="og:type" content="profile" />
 
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.quera.ir/vendor/semantic/semantic.rtl.min.0-ddac7104c4c3.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.quera.ir/css/style.0-a4a22d2eed6c.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.quera.ir/semanticui/style.0-9869ec99af23.css" />
-
-    <link rel="stylesheet" type="text/css" href="https://cdn.quera.ir/qcv/themes/theme1/theme1.0-a71ce87dbc4d.css">
-
-
+    <link rel="stylesheet" type="text/css" href="css/semantic.rtl.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
 </head>
 
 <body dir="rtl">
@@ -931,39 +926,8 @@
 
                 </div>
             </div>
-
-            <script>
-                document.addEventListener("DOMContentLoaded", function () {
-                    $(".copy-to-clipboard").each(function (i, e) {
-                        $(e).popup({
-                            content: "کپی",
-                            position: "top left",
-                            variation: "tiny",
-                            closable: false
-                        });
-                    });
-                    new ClipboardJS(".copy-to-clipboard", {
-                        target: function (trigger) {
-                            $(trigger).popup("change content", "کپی شد!");
-                            return trigger;
-                        }
-                    });
-                });
-                $(".md-supported").each(function (index, elem) {
-                    $(this).html(render_markdown($(this).text(), null, {
-                        breaks: true
-                    }))
-                })
-            </script>
-
         </div>
-
     </div>
-
-
-
-    <script type="text/javascript" src="https://cdn.quera.ir/js/quera_timer.0-85ff3ce2f293.js"></script>
-
 </body>
 
 </html>
