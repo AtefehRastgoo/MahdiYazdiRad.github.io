@@ -1,0 +1,25 @@
+﻿<script>
+var Url = "https://api.databeen.ir/v1/statistics";
+var Ddata = {
+	"secretKey": "08eefbad06b740d29f2345de498b3645",
+	"productName": "ir.yarebimeh.adablearning",
+	"deviceId": "آیدی مختص به کاربر", //Edit it
+	"eventName": "payment",
+	"date": "زمان انجام رویداد با فرمت YYYY-MM-DD HH:mm:ss", //Edit it
+	"appVersion": "ورژن اپلیکیشن", //Edit it
+	"ip": "آی پی کاربر", //Edit it (optional)
+	"sdkPlatform": "1",
+	"sessionID": "آیدی یونیک هر نشست", //Edit it (optional)
+	"parameter": [
+        {
+            "sku": "کد محصول خریداری شده", //Edit it
+            "token": "توکن بازگشتی از سمت بانک" //Edit it
+        }
+    ]
+};
+
+$.post(Url, JSON.stringify(Ddata)).done(function (response) {
+	console.log("DataBeen: Send Purchase Data")
+});
+
+</script>
