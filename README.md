@@ -1,3 +1,9 @@
 # MahdiYazdiRad.github.io
 
-This is new project, release a personal resume 
+### رزومه مهدی یزدی راد
+ 
+---
+- [resume](https://MahdiYazdiRad.github.io/)
+- [resume (on my domain)](http://MahdiYazdi.ir/)
+  
+------------------
